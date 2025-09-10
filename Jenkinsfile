@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/SIMON1-glitch/my-cicd-project'
+                git 'https://github.com/SIMON1-glitch/my-cicd-project.git'
             }
         }
 
